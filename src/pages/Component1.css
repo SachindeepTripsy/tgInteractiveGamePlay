@@ -1,0 +1,83 @@
+.image-113-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 390px;
+  height: 844px;
+  object-fit: cover;
+}
+.heart-icon {
+  position: absolute;
+  top: 226px;
+  left: 221px;
+  border-radius: var(--br-7xs);
+  width: 45px;
+  height: 70px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.top-beak-icon1 {
+  position: relative;
+  width: 89px;
+  height: 0;
+  display: none;
+}
+.tap-now-on-the-green-matching {
+  margin: 0;
+}
+.to-place-your {
+  margin: 0;
+  font-weight: 500;
+}
+.tap-now-on-container {
+  position: relative;
+  line-height: 140%;
+}
+.horizontal1 {
+  border-radius: var(--br-5xs);
+  background: radial-gradient(50% 50%at 50% 50%, #fef0d7, #d3b794);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base);
+  align-items: center;
+  justify-content: center;
+}
+.bottom-beak-icon1 {
+  position: relative;
+  width: 89px;
+  height: 7.17px;
+}
+.primititvetooltip1 {
+  position: absolute;
+  top: 77px;
+  left: calc(50% - 140px);
+  border-radius: var(--br-5xs);
+  box-shadow: var(--alert-shadow);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.pointing-finger-icon {
+  position: absolute;
+  top: 114.82px;
+  left: 230.05px;
+  width: 137.37px;
+  height: 159.56px;
+}
+.div1 {
+  position: relative;
+  border-radius: var(--br-7xs) var(--br-7xs) var(--br-xs) var(--br-xs);
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  background-image: url(/public/1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray);
+  font-family: var(--font-inter);
+}

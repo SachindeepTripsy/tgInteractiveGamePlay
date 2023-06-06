@@ -1,0 +1,107 @@
+.image-113-icon3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 390px;
+  height: 844px;
+  object-fit: cover;
+}
+.next2 {
+  position: relative;
+}
+.frame-container,
+.next-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.next-container {
+  border-radius: var(--br-10xs);
+  background: linear-gradient(180deg, #6f5f72, #1c181f);
+  box-shadow: 0-2px 4px #49454e inset, 0 2px 2px #cabfd2 inset;
+  padding: var(--padding-11xs) var(--padding-5xs);
+  justify-content: center;
+}
+.frame-container {
+  padding: var(--padding-11xs) 0;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.top-beak-icon3 {
+  position: relative;
+  width: 89px;
+  height: 0;
+  display: none;
+}
+.you-can {
+  font-weight: 500;
+}
+.drop-from-this,
+.you-can {
+  font-family: var(--font-inter);
+}
+.before-your {
+  font-weight: 500;
+}
+.you-can-drop-from-this-game-be {
+  margin: 0;
+}
+.first-turn-if {
+  margin: 0;
+  font-weight: 500;
+}
+.you-can-drop-container {
+  position: relative;
+  line-height: 140%;
+}
+.horizontal3 {
+  border-radius: var(--br-5xs);
+  background: radial-gradient(50% 50%at 50% 50%, #fef0d7, #d3b794);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base);
+  align-items: center;
+  justify-content: center;
+}
+.bottom-beak-icon3 {
+  position: relative;
+  width: 55px;
+  height: 7.47px;
+}
+.frame-group,
+.primititvetooltip3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.primititvetooltip3 {
+  border-radius: var(--br-5xs);
+  box-shadow: var(--alert-shadow);
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray);
+  font-family: var(--font-inter);
+}
+.frame-group {
+  position: absolute;
+  top: 677px;
+  left: 73px;
+}
+.div3 {
+  position: relative;
+  border-radius: var(--br-7xs) var(--br-7xs) var(--br-xs) var(--br-xs);
+  width: 100%;
+  height: 844px;
+  overflow: hidden;
+  background-image: url(/public/1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-roboto-condensed);
+}
