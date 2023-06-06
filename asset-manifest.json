@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/tgInteractiveGamePlay/static/css/main.a4b8ac2c.css",
+    "main.css": "/tgInteractiveGamePlay/static/css/main.947a7a49.css",
     "main.js": "/tgInteractiveGamePlay/static/js/main.8fdb9555.js",
     "static/js/787.7195931e.chunk.js": "/tgInteractiveGamePlay/static/js/787.7195931e.chunk.js",
     "index.html": "/tgInteractiveGamePlay/index.html",
-    "main.a4b8ac2c.css.map": "/tgInteractiveGamePlay/static/css/main.a4b8ac2c.css.map",
+    "main.947a7a49.css.map": "/tgInteractiveGamePlay/static/css/main.947a7a49.css.map",
     "main.8fdb9555.js.map": "/tgInteractiveGamePlay/static/js/main.8fdb9555.js.map",
     "787.7195931e.chunk.js.map": "/tgInteractiveGamePlay/static/js/787.7195931e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4b8ac2c.css",
+    "static/css/main.947a7a49.css",
     "static/js/main.8fdb9555.js"
   ]
 }
