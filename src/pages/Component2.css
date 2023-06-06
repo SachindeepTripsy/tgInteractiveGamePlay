@@ -2,29 +2,29 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 390px;
-  height: 844px;
+  width: 24.38rem;
+  height: 52.75rem;
   object-fit: cover;
 }
 .heart-icon1 {
   position: absolute;
-  top: 764px;
-  left: 221px;
-  border-radius: var(--br-7xs);
-  width: 53px;
-  height: 78px;
+  top: 47.75rem;
+  left: 13.81rem;
+  border-radius: 6px;
+  width: 3.31rem;
+  height: 4.88rem;
   overflow: hidden;
   cursor: pointer;
 }
 .top-beak-icon2 {
   position: relative;
-  width: 89px;
+  width: 5.56rem;
   height: 0;
   display: none;
 }
 .span3,
 .tap-now-on {
-  font-family: var(--font-inter);
+  font-family: Inter;
 }
 .span3 {
   font-weight: 600;
@@ -44,26 +44,26 @@
   line-height: 140%;
 }
 .horizontal2 {
-  border-radius: var(--br-5xs);
+  border-radius: 8px;
   background: radial-gradient(50% 50%at 50% 50%, #fef0d7, #d3b794);
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.6);
   display: flex;
   flex-direction: row;
-  padding: var(--padding-xs) var(--padding-base);
+  padding: 0.75rem 1rem;
   align-items: center;
   justify-content: center;
 }
 .bottom-beak-icon2 {
   position: relative;
-  width: 89px;
-  height: 7.17px;
+  width: 5.56rem;
+  height: 0.45rem;
 }
 .primititvetooltip2 {
   position: absolute;
-  top: 621px;
+  top: 38.81rem;
   left: calc(50% - 113px);
-  border-radius: var(--br-5xs);
-  box-shadow: var(--alert-shadow);
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15), 0 4px 8px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -71,23 +71,23 @@
 }
 .pointing-finger-icon1 {
   position: absolute;
-  top: 650.82px;
-  left: 230.05px;
-  width: 137.37px;
-  height: 159.56px;
+  top: 40.68rem;
+  left: 14.38rem;
+  width: 8.59rem;
+  height: 9.97rem;
 }
 .div2 {
   position: relative;
-  border-radius: var(--br-7xs) var(--br-7xs) var(--br-xs) var(--br-xs);
+  border-radius: 6px 6px 12px 12px;
   width: 100%;
-  height: 844px;
+  height: 52.75rem;
   overflow: hidden;
   background-image: url(/public/1@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   text-align: center;
-  font-size: var(--font-size-sm);
-  color: var(--color-gray);
-  font-family: var(--font-inter);
+  font-size: 0.88rem;
+  color: #0a0a0a;
+  font-family: Inter;
 }
