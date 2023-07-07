@@ -1,0 +1,109 @@
+.image113Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.child {
+  position: absolute;
+  top: 53vh;
+  left: 29vw;
+  width: 17vw;
+  height: 18vh;
+}
+
+.topBeakIcon {
+  position: relative;
+  width: 89px;
+  height: 0;
+  display: none;
+}
+
+.use1Eyed {
+  font-weight: 500;
+}
+
+.removeAnyOne,
+.use1Eyed {
+  font-family: var(--font-inter);
+}
+
+.highlightedInRed {
+  font-weight: 500;
+}
+
+.use1EyedJokerCardToRemov {
+  margin: 0;
+}
+
+.tapOnThis {
+  margin: 0;
+  font-weight: 500;
+}
+
+.use1EyedContainer {
+  position: relative;
+  line-height: 140%;
+  display: inline-block;
+  width: 70vw;
+}
+
+.horizontal {
+  border-radius: var(--br-5xs);
+  background: radial-gradient(50% 50%at 50% 50%, #fef0d7, #d3b794);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-base);
+  align-items: center;
+  justify-content: center;
+}
+
+.bottomBeakIcon {
+  position: relative;
+  width: 80vw;
+  right: 10vw;
+  height: 7.17px;
+  top: -0.15vh;
+}
+
+.primititvetooltip {
+  position: absolute;
+  top: 37vh;
+  left: 8vw;
+  border-radius: var(--br-5xs);
+  box-shadow: var(--alert-shadow);
+  display: flex;
+  color: black;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.pointingFingerIcon {
+  position: absolute;
+  top: 55vh;
+  left: 40vw;
+  width: 22vw;
+  height: 15vh;
+}
+
+.div {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(/public/26@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-400);
+  font-family: var(--font-inter);
+}

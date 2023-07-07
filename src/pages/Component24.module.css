@@ -1,0 +1,224 @@
+.image113Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.unionIcon {
+  width: 390px;
+  height: 225px;
+  opacity: 0.2;
+}
+
+.addACard,
+.unionIcon {
+  position: relative;
+}
+
+.addACardFromClosedDeckParent,
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.wrapper {
+  border-radius: var(--br-181xl);
+  background-color: var(--color-gray-300);
+  box-shadow: 0 1px 1px rgba(255, 255, 255, 0.4);
+  padding: var(--padding-11xs) var(--padding-7xs);
+  align-items: flex-start;
+  font-size: var(--font-size-xs);
+}
+
+.addACardFromClosedDeckParent {
+  position: absolute;
+  top: 0;
+  left: 99px;
+  align-items: center;
+  gap: var(--gap-5xs);
+  opacity: 0.2;
+}
+
+.groupChild,
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  height: 5px;
+}
+
+.groupChild {
+  background-color: var(--color-darkslategray);
+  width: 200px;
+  mix-blend-mode: normal;
+}
+
+.groupItem {
+  background-color: var(--color-springgreen);
+  width: 50.13px;
+}
+
+.rectangleParent {
+  align-self: stretch;
+  position: relative;
+  height: 5px;
+}
+
+.groupWrapper {
+  align-self: stretch;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-gray-100);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-11xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  mix-blend-mode: normal;
+}
+
+.clubIcon {
+  position: relative;
+  border-radius: var(--br-7xs);
+  width: 13.25vw;
+  height: 9.5vh;
+  margin-top: 0.75vh;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.clubParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.frameParent,
+.frameWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.frameWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.frameParent {
+  position: absolute;
+  top: 12vh;
+  left: 24vw;
+  padding: var(--padding-3xs) 0;
+  gap: var(--gap-5xs);
+  opacity: 0.2;
+}
+
+.closedDeck,
+.closedDeckParent,
+.frameParent {
+  display: flex;
+  align-items: center;
+}
+
+.closedDeck {
+  position: relative;
+  justify-content: center;
+  width: 10vw;
+  height: 2vh;
+  flex-shrink: 0;
+}
+
+.closedDeckParent {
+  position: absolute;
+  top: 2.8vh;
+  right: 1.25vw;
+  border-radius: var(--br-7xs) var(--br-7xs) 0 0;
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-7xs);
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  cursor: pointer;
+}
+
+.unionParent {
+  position: absolute;
+  top: 82.5vh;
+  width: 100%;
+  height: 20vh;
+}
+
+.topBeakIcon {
+  position: relative;
+  width: 89px;
+  height: 0;
+  display: none;
+}
+
+.tapNowOnClosedDeck,
+.toAddA {
+  margin: 0;
+}
+
+.toAddA {
+  font-weight: 500;
+}
+
+.tapNowOnContainer {
+  position: relative;
+  line-height: 140%;
+}
+
+.horizontal {
+  border-radius: var(--br-5xs);
+  background: radial-gradient(50% 50%at 50% 50%, #fef0d7, #d3b794);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base);
+  align-items: center;
+  justify-content: center;
+}
+
+.bottomBeakIcon {
+  position: relative;
+  width: 55px;
+  height: 7.17px;
+}
+
+.primititvetooltip {
+  position: absolute;
+  top: 74.5vh;
+  right: 2.5vw;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-400);
+  font-family: var(--font-inter);
+}
+
+.div {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(/public/26@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-roboto-condensed);
+}

@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-roboto-condensed: "Roboto Condensed";
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-xs: 12px;
+  --font-size-lg: 18px;
+  --font-size-2xs: 11px;
+  --font-size-5xl: 24px;
+
+  /* Colors */
+  --color-gray-100: #172517;
+  --color-gray-200: #1e040c;
+  --color-gray-300: #0b0c0b;
+  --color-gray-400: #0a0a0a;
+  --color-white: #fff;
+  --color-springgreen: #52f26c;
+  --color-darkslategray: #3b5647;
+  --color-bisque: #ffe8c4;
+
+  /* Gaps */
+  --gap-9xs: 4px;
+  --gap-5xs: 8px;
+  --gap-7xs: 6px;
+
+  /* Paddings */
+  --padding-xs: 12px;
+  --padding-base: 16px;
+  --padding-11xs: 6px;
+  --padding-5xs: 16px;
+  --padding-9xs: 4px;
+  --padding-3xs: 10px;
+  --padding-7xs: 6px;
+
+  /* border radiuses */
+  --br-7xs: 6px;
+  --br-xs: 12px;
+  --br-5xs: 8px;
+  --br-10xs: 3px;
+  --br-9xs: 4px;
+  --br-8xs: 5px;
+  --br-81xl: 100px;
+  --br-181xl: 200px;
+
+  /* Effects */
+  --alert-shadow: 0px 1px 2px rgba(0, 0, 0, 0.15),
+    0px 4px 8px rgba(0, 0, 0, 0.2);
+}

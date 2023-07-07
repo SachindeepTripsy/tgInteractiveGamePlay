@@ -1,0 +1,426 @@
+.image113Icon,
+.image114Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.image113Icon {
+  top: 5vh;
+  left: 20.78px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.image114Parent {
+  position: absolute;
+  top: -0.08px;
+  left: 0.22px;
+  width: 100%;
+  height: 100vh;
+}
+
+.mdiexitToAppIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.mdiexitToAppWrapper {
+  border-radius: var(--br-8xs);
+  background: linear-gradient(180deg, #6f5f72, #1c181f);
+  box-shadow: 0-2px 4px #49454e inset, 0 2px 2px #cabfd2 inset;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-5xs) var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+.gameTitlebarInner {
+  width: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.logoSvgIcon {
+  position: relative;
+  width: 140px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.logoSvgWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gameHints1 {
+  position: relative;
+}
+
+.on {
+  position: absolute;
+  top: calc(50% - 6px);
+  left: 6px;
+  font-weight: 500;
+}
+
+.onWrapper {
+  position: relative;
+  border-radius: 120px;
+  background: linear-gradient(270deg, #7a2d3f, #792d3e);
+  box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.25) inset;
+  width: 44px;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.frameWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  background: linear-gradient(180deg, #1d060d, #300a1a);
+  box-shadow: 0 0.6000000238418579px 0.3px rgba(255, 255, 255, 0.25),
+    0 4px 4px rgba(0, 0, 0, 0.25) inset;
+  display: flex;
+  flex-direction: column;
+  padding: 3px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.groupChild {
+  position: absolute;
+  top: calc(50% - 9px);
+  right: 3px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #36959a, #27787c);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5),
+    0-1px 1px rgba(137, 255, 255, 0.25) inset,
+    0 1.2000000476837158px 2px #89ffff inset;
+  width: 18px;
+  height: 18px;
+}
+
+.frameParent {
+  position: relative;
+  width: 50px;
+  height: 24px;
+  color: #ffb5a5;
+}
+
+.gameHints,
+.gameTitlebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.gameTitlebar {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-11xs) var(--padding-7xs);
+  align-items: center;
+  gap: var(--gap-7xs);
+}
+
+.emptyDiv {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.userPhotoIcon {
+  position: relative;
+  border-radius: var(--br-7xs);
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+
+.div1 {
+  position: relative;
+  font-weight: 500;
+  justify-content: center;
+  width: 40px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+.div1,
+.userPhotoParent,
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {
+  flex: 1;
+  height: 40px;
+  flex-direction: column;
+  padding: var(--padding-11xs) var(--padding-7xs);
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.userPhotoParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.you {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+}
+
+.youWrapper {
+  width: 83.5px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-2xs);
+}
+
+.frameContainer {
+  border-radius: var(--br-7xs);
+  background: linear-gradient(180deg, #161212, #289b58);
+  box-shadow: 0 0 5px rgba(90, 255, 138, 0.25), 0 0 25px rgba(90, 255, 138, 0.8),
+    0-1px 5px #5aff8a inset, 0 2px 3px rgba(90, 255, 138, 0.6) inset;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-9xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.opponent {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+
+.opponentWrapper {
+  width: 83.5px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-2xs);
+}
+
+.frameDiv,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+}
+
+.frameDiv {
+  border-radius: var(--br-7xs);
+  flex-direction: column;
+  padding: var(--padding-9xs);
+  justify-content: flex-start;
+  background-image: url(/public/frame-427319309@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.frameGroup {
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-7xs);
+}
+
+.groupChild1,
+.groupInner,
+.groupItem,
+.rectangleDiv {
+  position: absolute;
+  height: 44.44%;
+  width: 16.67%;
+  top: 55.56%;
+  right: 83.33%;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-springgreen);
+}
+
+.groupChild1,
+.groupInner,
+.rectangleDiv {
+  height: 55.56%;
+  top: 44.44%;
+  right: 55.56%;
+  left: 27.78%;
+}
+
+.groupChild1,
+.rectangleDiv {
+  height: 77.78%;
+  top: 22.22%;
+  right: 27.78%;
+  left: 55.56%;
+}
+
+.groupChild1 {
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 83.33%;
+}
+
+.rectangleParent {
+  position: absolute;
+  height: 75%;
+  width: 90%;
+  top: 12.5%;
+  right: 7.92%;
+  bottom: 12.5%;
+  left: 2.08%;
+}
+
+.emptyDivParent {
+  width: 390px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-7xs) 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-9xs);
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+}
+
+.gameTitlebarParent,
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.gameTitlebarParent {
+  opacity: 0.2;
+}
+
+.inner {
+  position: absolute;
+  top: 0.27px;
+  left: 0;
+  display: none;
+}
+
+.topBeakIcon {
+  position: relative;
+  width: 89px;
+  height: 0;
+  display: none;
+}
+
+.use2Eyed {
+  font-weight: 500;
+}
+
+.anyEmptySlot {
+  font-family: var(--font-inter);
+}
+
+.use2EyedJokerCardToPlace {
+  margin: 0;
+}
+
+.use2EyedContainer {
+  position: relative;
+  line-height: 140%;
+  display: inline-block;
+  width: 80vw;
+}
+
+.horizontal {
+  border-radius: var(--br-5xs);
+  background: radial-gradient(50% 50%at 50% 50%, #fef0d7, #d3b794);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-base);
+  align-items: center;
+  justify-content: center;
+}
+
+.bottomBeakIcon {
+  position: relative;
+  width: 80vw;
+  height: 7.17px;
+  top: -0.1vh;
+}
+
+.primititvetooltip {
+  position: absolute;
+  top: 5vh;
+  left: 6vw;
+  border-radius: var(--br-5xs);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-400);
+  font-family: var(--font-inter);
+}
+
+.div {
+  box-sizing: border-box;
+  position: relative;
+
+  width: 100%;
+
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(/public/26@3x.png);
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  background-position: top;
+
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-roboto-condensed);
+}

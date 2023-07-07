@@ -1,0 +1,98 @@
+.image113Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.heartIcon {
+  position: absolute;
+  border-radius: var(--br-7xs);
+  overflow: hidden;
+  cursor: pointer;
+  top: 90.5vh;
+  left: 16.1vw;
+  width: 13.2vw;
+  height: 9.25vh;
+}
+
+.topBeakIcon {
+  position: relative;
+  width: 89px;
+  height: 0;
+  display: none;
+}
+
+.span {
+  font-weight: 600;
+}
+
+.inYourHand {
+  font-weight: 500;
+}
+
+.tapNowOnContainer {
+  position: relative;
+  line-height: 140%;
+}
+
+.horizontal {
+  border-radius: var(--br-5xs);
+  background: radial-gradient(50% 50%at 50% 50%, #fef0d7, #d3b794);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-base);
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+}
+
+.bottomBeakIcon {
+  position: relative;
+  width: 80vw;
+  height: 7.17px;
+  top: -0.12vh;
+}
+
+.primititvetooltip {
+  position: absolute;
+  top: 73vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 85vw;
+  border-radius: var(--br-5xs);
+  box-shadow: var(--alert-shadow);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.pointingFingerIcon {
+  position: absolute;
+  top: 78vh;
+  left: 80.05px;
+  width: 22vw;
+  height: 15vh;
+}
+
+.div {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(/public/26@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-400);
+  font-family: var(--font-inter);
+}

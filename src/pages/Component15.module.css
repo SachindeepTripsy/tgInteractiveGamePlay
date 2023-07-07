@@ -1,0 +1,117 @@
+.image113Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.clubIcon {
+  position: absolute;
+  top: 90.5vh;
+  left: 43.25vw;
+  border-radius: var(--br-7xs);
+  width: 13.4vw;
+  height: 9.5vh;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.pointingFingerIcon {
+  position: absolute;
+  top: 78vh;
+  left: 50vw;
+  width: 22vw;
+  height: 15vh;
+}
+
+.topBeakIcon {
+  position: relative;
+  width: 89px;
+  height: 0;
+  display: none;
+}
+
+.youCanPlace {
+  font-weight: 500;
+}
+
+.sequenceOf3,
+.youCanPlace {
+  font-family: var(--font-inter);
+}
+
+.span {
+  font-weight: 500;
+}
+
+.youCanPlaceOneChipHereTo {
+  margin: 0;
+}
+
+.tapNowOn {
+  margin: 0;
+  font-weight: 500;
+}
+
+.youCanPlaceContainer {
+  position: relative;
+  line-height: 140%;
+  display: inline-block;
+  width: 70vw;
+}
+
+.horizontal {
+  border-radius: var(--br-5xs);
+  background: radial-gradient(50% 50%at 50% 50%, #fef0d7, #d3b794);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-base);
+  align-items: center;
+  justify-content: center;
+}
+
+.bottomBeakIcon {
+  position: absolute;
+  width: 80vw;
+  height: 8px;
+  top: -0.85vh;
+  left: 25vw;
+}
+
+.primititvetooltip {
+  position: absolute;
+  top: 47vh;
+  left: 10vw;
+  border-radius: var(--br-5xs);
+  box-shadow: var(--alert-shadow);
+  width: 85vw;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-400);
+  font-family: var(--font-inter);
+}
+
+.div {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(/public/26@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-roboto-condensed);
+}

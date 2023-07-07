@@ -1,0 +1,102 @@
+.image114Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.clubIcon,
+.diamondIcon {
+  position: absolute;
+  top: 88.7vh;
+  left: 13.68vw;
+  border-radius: var(--br-7xs);
+  width: 18vw;
+  height: 11.5vh;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.clubIcon {
+  top: 44.25vh;
+  left: 57vw;
+  width: 11.4vw;
+
+  height: 8.4vh;
+  cursor: pointer;
+}
+
+.topBeakIcon {
+  position: relative;
+  width: 89px;
+  height: 0;
+  display: none;
+}
+
+.here {
+  font-weight: 500;
+}
+
+.placeYourChipContainer {
+  position: relative;
+  line-height: 140%;
+}
+
+.horizontal {
+  border-radius: var(--br-5xs);
+  background: radial-gradient(50% 50%at 50% 50%, #fef0d7, #d3b794);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-base);
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+}
+
+.bottomBeakIcon {
+  position: relative;
+  width: 50vw;
+  height: 7.17px;
+  right: 3vw;
+  top: -0.2vh;
+}
+
+.primititvetooltip {
+  position: absolute;
+  top: 34.5vh;
+  left: calc(50% - 39px);
+  border-radius: var(--br-5xs);
+  box-shadow: var(--alert-shadow);
+  color: black;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.pointingFingerIcon {
+  position: absolute;
+  top: 50vh;
+  right: 15vw;
+  width: 22vw;
+  height: 15vh;
+}
+
+.div {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url(/public/sequence2Bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-400);
+  font-family: var(--font-inter);
+}
