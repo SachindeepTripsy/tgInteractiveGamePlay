@@ -1,4 +1,4 @@
-import { FunctionComponent, useCallback, useEffect, useState } from "react";
+import { FunctionComponent, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./Component.module.css";
 import { TAP_TO_CONTINUE } from "../constants";
