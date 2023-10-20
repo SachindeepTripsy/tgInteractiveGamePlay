@@ -22,7 +22,7 @@ const Component9: FunctionComponent = () => {
           <div className={styles.horizontal}>
             <div className={styles.youHaveNowContainer}>
               <span>{`You have now created `}</span>
-              <b>3 sequences</b>
+              <b>1 sequences</b>
               <span>{` before your opponent and `}</span>
               <b>won the game</b>
               <span>.</span>

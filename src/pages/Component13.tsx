@@ -57,13 +57,16 @@ const Component13: FunctionComponent = () => {
             <div className={styles.youHaveNowContainer}>
               <p className={styles.youHaveNowCreated1Sequenc}>
                 <span>{`You have now created `}</span>
-                <b className={styles.sequence}>1 sequence</b>
+                <b className={styles.sequence}>a sequence</b>
                 <span className={styles.sequence}>{`. `}</span>
               </p>
               <p className={styles.youHaveNowCreated1Sequenc}>
                 <span className={styles.sequence}>Create</span>
-                <b> 3 sequences</b>
-                <span className={styles.sequence}>{` to `}</span>
+                <b> 1 sequences</b>
+                <span className={styles.sequence}>{` before your `}</span>
+              </p>
+              <p className={styles.youHaveNowCreated1Sequenc}>
+                <span className={styles.sequence}>opponent to </span>
                 <b className={styles.sequence}>win the game</b>
                 <span className={styles.sequence}>.</span>
               </p>

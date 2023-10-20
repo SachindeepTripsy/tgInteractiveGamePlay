@@ -9,7 +9,7 @@ const CompletedBasic = () => {
   function sendEvent() {
     const event = { eventName: PLAY_PRACTICE_GAME };
     const message = JSON.stringify(event);
-    window.postMessage(message);
+    window?.ReactNativeWebView?.postMessage(message);
   }
   return (
     <React.Fragment>
@@ -19,7 +19,7 @@ const CompletedBasic = () => {
           src="./again.png"
           alt=""
           className={styles.again}
-          onClick={() => navigate("/")}
+          onClick={() => navigate("/31")}
         />
         <img
           src="./nextIcon.png"

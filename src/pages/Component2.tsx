@@ -12,7 +12,7 @@ const Component2: FunctionComponent = () => {
   function sendEvent() {
     const event = { eventName: PLAY_PRACTICE_GAME };
     const message = JSON.stringify(event);
-    window.postMessage(message);
+    window?.ReactNativeWebView?.postMessage(message);
   }
   return (
     <div className={styles.div}>

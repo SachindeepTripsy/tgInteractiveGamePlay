@@ -35,6 +35,7 @@ import Component27 from "./pages/Component27";
 import Component28 from "./pages/Component28";
 // import { useEffect } from "react";
 import CompletedBasic from "./pages/CompletedBasic";
+import StartBasics from "./pages/StartBasics";
 
 function App() {
   // const action = useNavigationType();
@@ -186,7 +187,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Component28 />} />
+      <Route path="/" element={<StartBasics/>} />
       <Route path="/14" element={<Component1 />} />
       <Route path="/29" element={<Component2 />} />
       <Route path="/23" element={<Component3 />} />
@@ -216,6 +217,7 @@ function App() {
       <Route path="/2" element={<Component27 />} />
       <Route path="/1" element={<Component />} />
       <Route path="/30" element={<CompletedBasic/> }/>
+      <Route path="/31" element={<Component28 /> }/>
     </Routes>
   );
 }
